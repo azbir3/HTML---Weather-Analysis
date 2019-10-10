@@ -1,0 +1,58 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+  background: lightgrey;
+}
+h1 {
+  font-size: 35px;
+}
+h2 {
+  font-size: 20px;
+}
+p{
+  font-size: 16px;
+}
+.box{
+  padding: 20px;
+  background: white;
+  margin-top:50px;
+  margin-left:8px;
+  margin-right:8px;
+  margin-bottom:20px;
+  align-content: center;
+} 
+.box img{
+  padding: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.box a img{
+  padding: 10px;
+}
+
+.navbar {
+  padding: 10px;
+  background: white;
+}
+.nav-color {
+color: goldenrod;
+font-weight: bold;
+font-size: 2em;
+}
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+.footer {
+  border-top: 6px solid goldenrod;
+  font: italic;
+  background-color: rgb(121, 119, 119);
+  text-align: center;
+  padding: 10px;
+}
+.footer p {
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
