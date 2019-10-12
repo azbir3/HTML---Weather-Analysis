@@ -1,6 +1,33 @@
+/* styling for navigation bar */
+.navbar {
+  padding: 10px;
+  background: white;
+  padding-right: 100px
+}
+.navbar-brand img{
+  margin-top: 18px;
+  margin-left: 60px;
+}
+.nav-color {
+color:goldenrod;
+font-weight: bold;
+font-size: 2em;
+
+}
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}
+
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
   background: lightgrey;
+}
+.container {
+  width: 100%;
+}
+.container-fluid {
+  width: 85%;
 }
 h1 {
   font-size: 35px;
@@ -11,13 +38,14 @@ h2 {
 p{
   font-size: 16px;
 }
+
 .box{
   padding: 20px;
   background: white;
-  margin-top:50px;
+  margin-top:20px;
   margin-left:8px;
   margin-right:8px;
-  margin-bottom:20px;
+  margin-bottom:10px;
   align-content: center;
 } 
 .box img{
@@ -28,22 +56,23 @@ p{
 .box a img{
   padding: 10px;
 }
-
-.navbar {
-  padding: 10px;
-  background: white;
+.plot_img{
+  width: 95%; 
+  float: center; 
+  margin : 15px;
 }
-.nav-color {
-color: goldenrod;
-font-weight: bold;
-font-size: 2em;
+.title{
+  font-style: italic;
+  margin-left: 45px;
+  margin-top: 20px;
+  
 }
-.navbar li a {
-  color: #000;
-  text-decoration: none;
+.hr{
+  border-bottom-color: 2px solid goldenrod;
 }
 
 
+/* styling for the footer */
 .footer {
   border-top: 6px solid goldenrod;
   font: italic;
@@ -55,4 +84,7 @@ font-size: 2em;
   font-style: italic;
   color: white;
   text-align: center;
+}
+a{
+  color: goldenrod;
 }
